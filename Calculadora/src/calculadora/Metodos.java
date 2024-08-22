@@ -16,6 +16,15 @@ public class Metodos {
     private boolean resta;
     private boolean multiplicacion;
     private boolean division;
+    private boolean raiz;
+    private boolean seno;
+    private boolean coseno;
+    private boolean tangente;
+    private boolean cotangente;
+    private boolean secante;
+    private boolean cosecante;
+    private boolean alcuadrado;
+    private boolean alapotencia;
     
     public Metodos(){
         cadena = "";
