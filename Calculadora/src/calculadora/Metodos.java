@@ -32,6 +32,15 @@ public class Metodos {
         resta = false;
         multiplicacion = false;
         division = false;
+        raiz = false;
+        seno = false;
+        coseno = false;
+        tangente = false;
+        cotangente = false;
+        secante = false;
+        cosecante = false;
+        alcuadrado = false;
+        alapotencia = false;
     }
     
     public String concatenamiento(String cadena){
@@ -60,6 +69,60 @@ public class Metodos {
     public void division(String cadena){
         this.resultado=Double.parseDouble(cadena);
         division=true;
+        this.cadena="";
+    }
+    
+    public void raiz(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        raiz=true;
+        this.cadena="";
+    }
+    
+    public void seno(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        seno=true;
+        this.cadena="";
+    }
+    
+    public void conseno(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        coseno=true;
+        this.cadena="";
+    }
+    
+    public void tangente(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        tangente=true;
+        this.cadena="";
+    }
+    
+    public void cotangente(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        cotangente=true;
+        this.cadena="";
+    }
+    
+    public void secante(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        secante=true;
+        this.cadena="";
+    }
+    
+    public void cosecante(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        cosecante=true;
+        this.cadena="";
+    }
+    
+    public void alcuadrado(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        alcuadrado=true;
+        this.cadena="";
+    }
+    
+    public void alapotencia(String cadena){
+        this.resultado=Double.parseDouble(cadena);
+        alapotencia=true;
         this.cadena="";
     }
     
