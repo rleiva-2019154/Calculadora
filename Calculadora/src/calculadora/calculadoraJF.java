@@ -676,7 +676,7 @@ Metodos metodox=new Metodos();
 
     private void btnSumaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSumaMouseClicked
         // TODO add your handling code here:
-        metodox.suma(txt.getText());
+        metodox.suma(txt.getText()); 
     }//GEN-LAST:event_btnSumaMouseClicked
 
     private void btnRestaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRestaMouseClicked
