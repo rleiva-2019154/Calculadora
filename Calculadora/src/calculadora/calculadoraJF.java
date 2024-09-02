@@ -68,6 +68,11 @@ Metodos metodox=new Metodos();
         txt.setOpaque(true);
 
         btnC.setText("C");
+        btnC.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCMouseClicked(evt);
+            }
+        });
         btnC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCActionPerformed(evt);
@@ -743,6 +748,10 @@ Metodos metodox=new Metodos();
         // TODO add your handling code here:
         metodox.division(txt.getText());
     }//GEN-LAST:event_btnDivisionMouseClicked
+
+    private void btnCMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCMouseClicked
 
     /**
      * @param args the command line arguments
